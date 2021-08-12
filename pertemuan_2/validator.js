@@ -21,3 +21,9 @@ boolValidate = (boolParam) => {
         return false
     }
 }
+
+module.exports = {
+    stringValidate,
+    numValidate,
+    boolValidate
+}

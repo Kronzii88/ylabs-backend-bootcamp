@@ -17,3 +17,9 @@ oddEvenChecker = (param) => {
         return `${param} adalah bilangan ganjil`;
     }
 }
+
+module.exports = {
+    floatToNum,
+    stringToNum,
+    oddEvenChecker
+};
